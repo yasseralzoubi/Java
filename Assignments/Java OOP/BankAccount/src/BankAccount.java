@@ -23,6 +23,7 @@ public class BankAccount {
 
     public double getSavingsBalance() {
         return savingsBalance;
+
     }
 
     public static int getAccounts() {
@@ -31,8 +32,8 @@ public class BankAccount {
 
     public static double getTotalMoney() {
         return totalMoney;
-    }
 
+    }
     // METHODS
     // deposit
     // - users should be able to deposit money into their checking or savings account
