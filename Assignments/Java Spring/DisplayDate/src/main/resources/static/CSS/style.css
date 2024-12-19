@@ -1,0 +1,32 @@
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+    height: 50vh;
+    width: 100%;
+}
+
+a {
+    font-size: 4vh;
+}
+
+p {
+    color: blue;
+    font-size: 3vh;
+}
+
+h1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+    height: 50vh;
+    width: 100%;
+    color: blue;
+    font-size: 3vh;
+}

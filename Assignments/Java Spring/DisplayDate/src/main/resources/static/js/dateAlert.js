@@ -1,3 +1,1 @@
-function showAlert(page){
-    alert("you are viewing the " + page +  " page.");
-}
+alert("This is the date template")
