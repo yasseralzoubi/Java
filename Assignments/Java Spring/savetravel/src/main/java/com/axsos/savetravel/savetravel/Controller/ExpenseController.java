@@ -16,7 +16,7 @@ public class ExpenseController {
     @Autowired
     ExpenseService expenseService;
     @GetMapping("/")
-    public String index (@ModelAttribute("expense") Expense expense , Model model ) {
+    public String index (@ModelAttribute(   "expense") Expense expense , Model model ) {
 
         model.addAttribute("expenses", expenseService.findAllExpenses());
         return "home.jsp";
